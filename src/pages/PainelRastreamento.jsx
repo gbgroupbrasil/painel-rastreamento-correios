@@ -1,7 +1,5 @@
 
 import React, { useState } from 'react';
-import './App.css';
-
 const PainelRastreamento = () => {
   const [dadosTexto, setDadosTexto] = useState("");
   const [rastreios, setRastreios] = useState([]);
