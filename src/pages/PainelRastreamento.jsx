@@ -61,9 +61,10 @@ const PainelRastreamento = () => {
     return text;
   };
   const extrairStatus = (xml) => {
-  const match = xml.match(/<descricao>(.*?)<\/descricao>/);
-  return match ? match[1] : 'Desconhecido';
-};
+    const match = xml.match(/<descrição>(.*?)<\/descrição>/);
+    return match ? match[1] : 'Desconhecido';
+  } ;
+
   const categorizarStatus = (descricao) => {
     if (!descricao) return 'Desconhecido';
     const desc = descricao.toLowerCase();
