@@ -172,7 +172,7 @@ const PainelRastreamento = () => {
         <option value="Em trânsito"> Em trânsito</option>
         <option value="Aguardando retirada"> Aguardando retirada</option>
         <option value="Entregue"> Entregue</option>
-        <option value="Alerta">⚠ Alerta</option>
+        <option value="Alerta"> Alerta</option>
       </select>
       <div>
         {rastreiosFiltrados.map((item) => (
